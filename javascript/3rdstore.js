@@ -7,7 +7,7 @@ var popup = L.popup()
 .setLatLng([34.70173848853386, 135.4964835148338])
 .setContent("Mugiwara store (official one piece store japan).")
 .openOn(map);
-marker.bindPopup("Mugiwara store (umeda").openPopup();
+marker.bindPopup("Mugiwara store (umeda)").openPopup();
 
 
 
