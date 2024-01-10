@@ -1,13 +1,13 @@
 var map = L.map('map')
-.setView([35.65980824918593, 139.7008380976932], 13);
+.setView([35.729495740823175, 139.71871379612898], 13);
 
-var marker = L.marker([35.65980824918593, 139.7008380976932]).addTo(map);
+var marker = L.marker([35.729495740823175, 139.71871379612898]).addTo(map);
 
 var popup = L.popup()
-.setLatLng([35.65980824918593, 139.7008380976932])
+.setLatLng([35.729495740823175, 139.71871379612898])
 .setContent("Mugiwara store (official one piece store japan).")
 .openOn(map);
-marker.bindPopup("Mugiwara store (shibuya)").openPopup();
+marker.bindPopup("Mugiwara store (ikebura").openPopup();
 
 
 
@@ -33,15 +33,3 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 maxZoom: 19,
 attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
-
-
-
-
-
-
-
-
-
-
-
-
